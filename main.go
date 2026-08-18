@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"GOLANG/array"
+	"GOLANG/even"
+	"GOLANG/pointers"
+	"fmt"
+)
 
 func main() {
 	var n int
@@ -9,4 +14,8 @@ func main() {
 	for i := 1; i <= n; i++ {
 		fmt.Println(i)
 	}
+	fmt.Println(pointers.Point())
+	fmt.Println(array.Ar())
+	fmt.Println(array.Arr())
+	fmt.Println(even.Ev())
 }
