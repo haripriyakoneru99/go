@@ -5,6 +5,7 @@ import (
 	"GOLANG/even"
 	"GOLANG/pointers"
 	"GOLANG/swap"
+	"GOLANG/vowels"
 	"fmt"
 )
 
@@ -20,4 +21,5 @@ func main() {
 	fmt.Println(array.Arr())
 	fmt.Println(even.Ev())
 	fmt.Println(swap.Sw())
+	fmt.Println(vowels.Vowels())
 }
